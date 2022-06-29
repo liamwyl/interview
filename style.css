@@ -1,0 +1,110 @@
+.box {
+	margin: 0 auto;
+	height: 500px;
+	box-shadow: 1px 1px 1px #4D555D;
+	overflow: hidden;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	float: left;
+	animation: box1 10s ease-in-out;
+	animation-fill-mode: forwards;
+	margin-right: 40px;
+	position: relative;
+}
+
+.box1 {
+	background-color: #0000FF;
+}
+
+.box2 {
+	background-color: red;
+	animation-delay: 0.3s;
+}
+
+.box3 {
+	background-color: yellow;
+	animation-delay: 0.1s;
+}
+
+.box4 {
+	display: none;
+	background-color: greenyellow;
+	animation-delay: 0.4s;
+}
+
+.box5 {
+	display: none;
+	background-color: lightgoldenrodyellow;
+	animation-delay: 0.1s;
+}
+
+.box6 {
+	display: none;
+	background-color: blueviolet;
+	animation-delay: 0.7s;
+}
+
+.box7 {
+	display: none;
+	background-color: seagreen;
+	animation-delay: 0.1s;
+}
+
+.box8 {
+	display: none;
+	background-color: orangered;
+	animation-delay: 0.3s;
+}
+
+.box9 {
+	display: none;
+	background-color: powderblue;
+	animation-delay: 0.8s;
+}
+
+#inter {
+	margin-top: 100px;
+	margin-left: 1200px;
+	background-color: black;
+	width: 150px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	color: azure;
+	border-radius: 10px;
+}
+
+.point {
+	width: 8px;
+	height: 8px;
+	margin-right: 8px;
+	margin-left: 4px;
+	border-radius: 50%;
+	background-color: forestgreen;
+	display: flex;
+	align-items: center;
+}
+
+@keyframes box1 {
+	from {
+		margin-top: 500px;
+	}
+
+	to {
+		margin-top: 50px;
+		margin-left: 30px;
+	}
+
+}
